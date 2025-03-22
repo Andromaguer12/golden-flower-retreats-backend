@@ -31,7 +31,7 @@ const sendContactEmails = asyncHandler(async (req: Request, res: Response) => {
       html: (props: { subject: string; name: string }) => contactConfirmationEmailEs(props),
     },
     en: {
-      subject: 'Thank you for contact with Golden Flower Retreats!',
+      subject: 'Thank you for contacting Golden Flower Retreats!',
       html: (props: { subject: string; name: string }) => contactConfirmationEmailEn(props),
     },
   };
