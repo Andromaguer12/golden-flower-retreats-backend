@@ -65,9 +65,9 @@ export const sendFreeGuideEmailTemplateEn = ({ subject, name }: SendFreeGuideEma
             <td align='center'>
                 <h2 style='color: #333;'>Hello, ${name}!</h2>
                 <p style='color: #555; font-size: 16px;'>We're excited to share your FREE guide with you:</p>
-                <h3 style='color: #f1c232;'>5 Keys to Hosting a Transformational Retreat</h3>
+                <h3 style='color: #028396;'>5 Keys to Hosting a Transformational Retreat</h3>
                 <p style='color: #555; font-size: 14px;'>Click the button below to download your guide and start planning an unforgettable experience.</p>
-                <a href='#' style='background: #f1c232; color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 5px; display: inline-block; margin-top: 10px; font-weight: bold;'>Download Now</a>
+                <a href=${process.env.NODE_FREE_GUIDE} style='background: #028396; color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 5px; display: inline-block; margin-top: 10px; font-weight: bold;'>Download Now</a>
             </td>
         </tr>
         <tr>
